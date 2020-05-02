@@ -3,29 +3,57 @@
 	padding: 0;
 	font-family: tahoma;
 }
-
-
+div {
+	margin: 0 10vw 0 10vw;
+}
 div div {
 	margin: 10px;
-	/*padding: 20px 50px 20px 50px;*/
-	background: lightgrey;
+	background: #fff;
 }
-
-#nome {
+div #nome {
 	font-size: 40px;
+	text-align: center;
 }
-
-#cidade {
-	font-style: italic;
-	font-size: 20px;
+div div.info ul {
+	padding-bottom: 10px;
+	border-bottom: 1px solid;
+	text-align: center;
 }
-
-#telefone {
-	font-style: italic;
-	font-size: 20px;
+div div.info ul li {
+		display: inline-block;
+		padding: 0 .5vw 0 .5vw;
 }
-
-#habilidades p {
-	padding: 5px;
+div div.info ul,
+div div.info ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+}
+p.sintese {
+	padding-bottom: 10px;
 	text-align: justify;
+}
+h3, .cargo {
+	padding-bottom: 10px;
+}
+.descricao {
+	text-align: justify;
+}
+p, h4 {
+	padding-left: 50px;
+}
+ul.resultados {
+	padding-left: 100px;
+	padding-bottom: 15px;
+	list-style: disc;
+}
+.obtidos {
+	padding-top: 15px;
+}
+.portifolio a {
+	text-decoration: none;
+	color: #000;
+}
+.portifolio p {
+	padding-bottom: 5px;
 }
